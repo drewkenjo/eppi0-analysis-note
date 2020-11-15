@@ -1,14 +1,43 @@
-\documentclass{article}
+\documentclass[11pt]{report}
+\usepackage{outline}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
+\usepackage{wrapfig}
+\usepackage[most]{tcolorbox}
+\usepackage{hyperref}
+%\usepackage{fancyhdr}
+\usepackage{subcaption}
+\usepackage[toc,page]{appendix}
+\usepackage{grffile}
 
-\title{eppi0-analysis-note}
-\author{drewkenjo.jlab }
-\date{November 2020}
+\title{Analysis note on Deeply Virtual $\pi^0$ Production}
+\author{
+Andrey Kim, University of Connecticut\\
+Robert Johnston, MIT\\
+}
+
+\date{}
 
 \begin{document}
 
 \maketitle
+\tableofcontents
+test
+\chapter{PID}
+\input{PID}
 
-\section{Introduction}
+\chapter{Exclusive selection}
+\input{Exclusive}
+
+\chapter{Results}
+\input{Results}
+
+\chapter{Simulations}
+\input{Simulations}
+
+\chapter{Appendix}
+\input{Appendix}
+
 
 \end{document}
